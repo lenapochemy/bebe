@@ -5,8 +5,8 @@ public class Main {
         Cat kitty = new Cat("Kitty");
 
         System.out.println(kitty.getName());
-
-        Cat filya = new Cat("Filya");
-        System.out.println(filya.getName());
+        Dog sky = new Dog("Sky");
+        System.out.println("cat's name:" + kitty.getName() );
+        System.out.println("dog's name "+ sky.getName());
     }
 }
