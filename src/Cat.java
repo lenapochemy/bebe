@@ -5,8 +5,10 @@ public class Cat {
 //    public Color color;
   //  public String friend;
 
-    public Cat(String name){
+    public Cat(String name, int id, String owner){
         this.name=name;
+        this.id = id;
+        this.owner = owner;
     }
 
     public String getName(){
